@@ -9,4 +9,8 @@ import 'bootstrap'
 // Importar Font Awesome (opcional)
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-createApp(App).use(router).mount('#app')
+//Creamos la app, usamos el router y montamos la app en el viv#app del html
+const app = createApp(App);
+app.use(router);
+app.mount('#app');
+
